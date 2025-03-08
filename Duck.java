@@ -11,4 +11,11 @@ abstract public class Duck {
     quackBehaviour.quack();
   }
 
+  public void setSwimBehaviour(SwimBehaviour swimBehaviour){
+    this.swimBehaviour = swimBehaviour;
+  }
+
+  public void performSwim() {
+    swimBehaviour.swim();
+  }
 }
