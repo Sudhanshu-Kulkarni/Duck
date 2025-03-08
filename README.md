@@ -39,15 +39,11 @@ To run the Program:
    ```bash
    git clone https://github.com/Sudhanshu-Kulkarni/Duck.git
    ```
-2. **Navigate to the project directory**:
-   ```bash
-   cd Duck
-   ```
-3. **Compile the Java files**:
+2. **Compile the Java files**:
    ```bash
    javac *.java
    ```
-4. **Run the simulation**:
+3. **Run the simulation**:
    ```bash
    java Main
    ```
