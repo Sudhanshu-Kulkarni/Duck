@@ -28,4 +28,6 @@ abstract public class Duck {
     flyBehaviour.fly();
   }
 
+  abstract public void display();
+
 }
