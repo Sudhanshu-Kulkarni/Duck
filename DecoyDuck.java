@@ -1,4 +1,5 @@
 public class DecoyDuck extends Duck {
+    // Constructor assigns specific behaviors to DecoyDuck
     public DecoyDuck() {
         quackBehaviour = new MuteQuack();
         swimBehaviour = new Drown();

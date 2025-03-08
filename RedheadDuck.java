@@ -1,4 +1,5 @@
 public class RedheadDuck extends Duck{
+  // Constructor assigns specific behaviors to ReadheadDuck
   public RedheadDuck() {
     quackBehaviour = new Quack();
     swimBehaviour = new Swim();
